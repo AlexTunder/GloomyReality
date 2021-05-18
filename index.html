@@ -13,13 +13,15 @@
     <script>
         function openNav() {
             // Here i will open navMenu
+            document.getElementById("screenOnOpenedNav").style.visibility = "visible";
             document.getElementById("navigator").style.width = "20%";
-            document.getElementById("screenOnOpenedNav").style.visibility = "visible"
+            document.getElementById("screenOnOpenedNav").style.backgroundColor = "rgba(0,0,0,0.4)"
         }
         function closeNav() {
             // Here i will close navMenu
             document.getElementById("navigator").style.width = "0px";
-            document.getElementById("screenOnOpenedNav").style.visibility = "hidden"
+            document.getElementById("screenOnOpenedNav").style.backgroundColor = "rgba(0,0,0,0)"
+            document.getElementById("screenOnOpenedNav").style.visibility = "hidden";
         }
     </script>
     <body>
