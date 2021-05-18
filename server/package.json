@@ -1,0 +1,11 @@
+{
+  "name": "gloomyreality",
+  "version": "1.0.0",
+  "description": "GloomyReality server",
+  "main": "host.js",
+  "scripts": {
+    "test": "ls"
+  },
+  "author": "AlexThunder, pizzadona",
+  "license": "GPL-3.0-or-later"
+}

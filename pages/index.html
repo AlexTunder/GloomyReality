@@ -1,6 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" media="all" type="text/css" href="css/main.css" />
         <link rel="stylesheet" media="all" type="text/css" href="css/index.css" />
         <title>
             GR-test
@@ -9,6 +10,7 @@
     <div id="navigator" class="navMenu">
         <a href="javascript:void(0)" class="closenav" onclick="closeNav()">&times;</a>
         <a href="#">Профиль</a>
+        <a href="http://vk.com/gloomy_reality">Группа VK</a>
     </div>
     <script>
         function openNav() {
@@ -25,12 +27,13 @@
         }
     </script>
     <body>
-        <div class="blackscreen" id="screenOnOpenedNav">
+        <div class="blackscreen" id="screenOnOpenedNav" onclick="closeNav()">
 
         </div>
         <div class="header" id="topbox">
             <img id="logo" scr="img/header_logo.png" alt="missed" class="grLogo" onclick="openNav()">
             <b> Gloome Reality </b>
         </div>
+        
     </body>
 </html>
