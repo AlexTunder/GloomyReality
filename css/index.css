@@ -1,0 +1,28 @@
+body{
+    background-color: #add8e6;
+    margin: 0%;
+    padding: 0%;
+    /* margin-top: 5% */
+}
+.header{
+    background-color: #8da8d6;
+    height: auto;
+    border-bottom: 2px solid #7a97c9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    padding: 1%;
+}
+.grLogo{
+    float: left;
+    /* background-color: #add8e6; */
+    border-radius: 1%;
+}
+.navMenu{
+    float: right;
+
+}
+#main{
+    background-color: #add8e6;
+    margin-top: 10%;
+}
