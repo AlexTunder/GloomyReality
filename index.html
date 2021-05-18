@@ -6,13 +6,27 @@
             GR-test
         </title>
     </head>
+    <div id="navigator" class="navMenu">
+        <a href="javascript:void(0)" class="closenav" onclick="closeNav()">&times;</a>
+        <a href="#">Профиль</a>
+    </div>
     <script>
         function openNav() {
             // Here i will open navMenu
+            document.getElementById("navigator").style.width = "20%";
+            document.getElementById("screenOnOpenedNav").style.visibility = "visible"
+        }
+        function closeNav() {
+            // Here i will close navMenu
+            document.getElementById("navigator").style.width = "0px";
+            document.getElementById("screenOnOpenedNav").style.visibility = "hidden"
         }
     </script>
     <body>
-        <div class="header">
+        <div class="blackscreen" id="screenOnOpenedNav">
+
+        </div>
+        <div class="header" id="topbox">
             <img id="logo" scr="img/header_logo.png" alt="missed" class="grLogo" onclick="openNav()">
             <b> Gloome Reality </b>
         </div>
